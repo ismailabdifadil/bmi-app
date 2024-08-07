@@ -1,24 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
-
+import logo from './assets/logo.png';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div className=" w-full h-lvh bg-primary">
+        <div className="container flex flex-col justify-between  py-[40px] text-center px-8 font-roboto">
+       git    <h1 className=" text-4xl text-white font-bold mb-2">BMiDO</h1>
+          <img src={logo} alt="log" />
+          <div className="px-4 py-3">
+            <h2 className="text-white text-xl font-bold text-left pb-4">
+              Get Started with Tracking Your Health!
+            </h2>
+            <p className="text-[#C6C3F9] text-left text-xs leading-tight tracking-widest font-semibold">
+              Calculate your BMI and stay on top of your wellness journey,
+              effortlessly.
+            </p>
+          </div>
+          {/* </div>  */}
+          <button className="btn btn-secondary">Get Started</button>
+        </div>
+      </div>
+    </>
   );
 }
 
