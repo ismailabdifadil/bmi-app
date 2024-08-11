@@ -12,6 +12,6 @@
     @apply bg-white py-3 text-center  rounded-full block w-full  hover:border-primary hover:opacity-80;
   }
   .container {
-    @apply max-w-[333px] mx-auto bg-primary h-full;
+    @apply max-w-[393px] mx-auto bg-primary h-full;
   }
 }
