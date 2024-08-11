@@ -1,8 +1,10 @@
+import { Link } from 'react-router-dom';
+import Button from '../shared/Button';
 
 const HomePage = () => {
   return (
-    <div>
-      <h1>Home</h1>
+    <div className="w-full h-lvh bg-backgroundColor">
+ 
     </div>
   );
 };

@@ -5,6 +5,7 @@ import App from './App';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import WelcomePage from './pages/WelcomePage';
 import HomePage from './pages/HomePage';
+import ResultPage from './pages/ResultPage';
 
 const router = createBrowserRouter([
   {
@@ -20,6 +21,10 @@ const router = createBrowserRouter([
   {
     path: '/home',
     element: <HomePage />,
+  },
+  {
+    path: '/result',
+    element: <ResultPage />,
   },
 ]);
 
